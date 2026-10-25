@@ -32,6 +32,7 @@
               "includePaths": ["src/assets/styles"]
             },
             "scripts": [],
+            "deployUrl": "",
             "customWebpackConfig": {
               "path": "./webpack.config.ts",
               "mergeRules": {
@@ -59,7 +60,8 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "deployUrl": ""
             },
             "development": {
               "buildOptimizer": false,
